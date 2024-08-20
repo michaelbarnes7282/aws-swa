@@ -1,5 +1,3 @@
-// app/page.tsx
-
 import { revalidatePath } from "next/cache";
 
 import { AuthGetCurrentUserServer, cookiesClient } from "@/utils/amplify-utils";

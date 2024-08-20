@@ -1,5 +1,3 @@
-// app/login/page.tsx - Custom <Authenticator>
-
 "use client";
 
 import {
