@@ -10,4 +10,10 @@ export const auth = defineAuth({
       verificationEmailSubject: 'Welcome! Verify your email!'
     },
   },
+  userAttributes: {
+    preferredUsername: {
+      mutable: true,
+      required: false
+    }
+  }
 });
